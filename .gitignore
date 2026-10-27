@@ -1,0 +1,90 @@
+# ==============================================================================
+# DATA SCIENCE & MACHINE LEARNING SPECIFIC
+# ==============================================================================
+# Ignore local data directories (adjust to your structure)
+data/raw/
+data/processed/
+
+# Common data file extensions
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.h5
+*.he5
+*.nc
+
+# Model checkpoints, weights, and serialized objects
+models/
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.bst
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# TensorBoard logs and Mlflow artifacts
+tboard_logs/
+mlruns/
+lightning_logs/
+
+# ==============================================================================
+# SECRETS & ENVIRONMENTS
+# ==============================================================================
+# Environment variables containing API keys / credentials
+.env
+.env.*
+secrets.yaml
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================================================================
+# STANDARD PYTHON ARTIFACTS
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Logs
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ==============================================================================
+# IDEs, TEXT EDITORS, & OS
+# ==============================================================================
+.vscode/
+.idea/
+.spyderproject
+.ropeproject
+.DS_Store
+Thumbs.db
